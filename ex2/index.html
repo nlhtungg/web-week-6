@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhà sách Trí Tuệ - Tung Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header với thanh điều hướng -->
+    <header>
+        <h1>Nhà sách Trí Tuệ - Tung Books</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#products">Sản phẩm</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Nội dung chính -->
+    <main>
+        <!-- Giới thiệu về cửa hàng -->
+        <section id="intro">
+            <h2>Chào mừng đến với Nhà sách Trí Tuệ</h2>
+            <p>Được thành lập bởi Tung - một người yêu sách từ nhỏ. Chúng tôi chuyên cung cấp những cuốn sách hay về phát triển bản thân, khoa học, và văn học hiện đại. Mỗi cuốn sách được chọn lọc kỹ càng để mang đến giá trị thực cho độc giả.</p>
+        </section>
+
+        <!-- Danh sách sản phẩm -->
+        <section id="products">
+            <h2>Sản phẩm nổi bật</h2>
+            <div id="product-list">
+                <!-- Sản phẩm 1 -->
+                <article class="product-item">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=300&fit=crop&crop=face" alt="Thinking Fast and Slow">
+                    <h3>Thinking, Fast and Slow</h3>
+                    <p class="product-description">Tác phẩm của Daniel Kahneman về cách não bộ hoạt động và đưa ra quyết định. Một cuốn sách mở mang tầm nhìn về tâm lý học và kinh tế hành vi.</p>
+                    <p class="product-price"><strong>Giá: 156,000₫</strong></p>
+                </article>
+
+                <!-- Sản phẩm 2 -->
+                <article class="product-item">
+                    <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=200&h=300&fit=crop" alt="The Lean Startup">
+                    <h3>The Lean Startup</h3>
+                    <p class="product-description">Eric Ries hướng dẫn cách xây dựng startup thành công thông qua phương pháp "học nhanh, thất bại nhanh". Cuốn sách cần thiết cho các entrepreneur trẻ.</p>
+                    <p class="product-price"><strong>Giá: 145,000₫</strong></p>
+                </article>
+
+                <!-- Sản phẩm 3 -->
+                <article class="product-item">
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=200&h=300&fit=crop" alt="Code Complete">
+                    <h3>Code Complete</h3>
+                    <p class="product-description">Steve McConnell trình bày nghệ thuật viết code chuyên nghiệp. Cuốn sách kinh điển cho mọi lập trình viên muốn nâng cao kỹ năng.</p>
+                    <p class="product-price"><strong>Giá: 198,000₫</strong></p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Form liên hệ -->
+        <section id="contact">
+            <h2>Liên hệ với chúng tôi</h2>
+            <form>
+                <label for="name">Họ và tên:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Nội dung tin nhắn:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Nhập tin nhắn của bạn..."></textarea>
+
+                <button type="submit">Gửi</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Nhà sách Trí Tuệ - Tung Books</h3>
+        <p>Địa chỉ: 456 Nguyễn Văn Cừ, Quận 5, TP.HCM</p>
+        <p>Điện thoại: (028) 9876-5432</p>
+        <p>Email: contact@tungbooks.vn</p>
+        <p>&copy; 2025 Nhà sách Trí Tuệ - Tung Books. Tất cả quyền được bảo lưu.</p>
+    </footer>
+</body>
+</html>
