@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Thinking, Fast and Slow",
+      "price": 156000,
+      "category": "Tâm lý học",
+      "desc": "Tác phẩm của Daniel Kahneman về cách não bộ hoạt động và đưa ra quyết định. Một cuốn sách mở mang tầm nhìn về tâm lý học và kinh tế hành vi.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=300&fit=crop&crop=face",
+      "author": "Daniel Kahneman",
+      "pages": 512,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "The Lean Startup",
+      "price": 145000,
+      "category": "Kinh doanh",
+      "desc": "Eric Ries hướng dẫn cách xây dựng startup thành công thông qua phương pháp 'học nhanh, thất bại nhanh'. Cuốn sách cần thiết cho các entrepreneur trẻ.",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=200&h=300&fit=crop",
+      "author": "Eric Ries",
+      "pages": 336,
+      "rating": 4.6
+    },
+    {
+      "id": 3,
+      "name": "Code Complete",
+      "price": 198000,
+      "category": "Lập trình",
+      "desc": "Steve McConnell trình bày nghệ thuật viết code chuyên nghiệp. Cuốn sách kinh điển cho mọi lập trình viên muốn nâng cao kỹ năng.",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=200&h=300&fit=crop",
+      "author": "Steve McConnell",
+      "pages": 960,
+      "rating": 4.9
+    },
+    {
+      "id": 4,
+      "name": "Clean Code",
+      "price": 175000,
+      "category": "Lập trình",
+      "desc": "Robert C. Martin chia sẻ các nguyên tắc viết code sạch, dễ đọc và bảo trì. Một cuốn sách không thể thiếu cho mọi developer.",
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=200&h=300&fit=crop",
+      "author": "Robert C. Martin",
+      "pages": 464,
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "name": "Atomic Habits",
+      "price": 129000,
+      "category": "Phát triển bản thân",
+      "desc": "James Clear hướng dẫn cách xây dựng thói quen tích cực và loại bỏ thói quen xấu một cách hiệu quả và bền vững.",
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=200&h=300&fit=crop",
+      "author": "James Clear",
+      "pages": 320,
+      "rating": 4.8
+    },
+    {
+      "id": 6,
+      "name": "Rich Dad Poor Dad",
+      "price": 89000,
+      "category": "Tài chính",
+      "desc": "Robert Kiyosaki chia sẻ những bài học về tiền bạc và đầu tư từ hai người cha với quan điểm khác nhau.",
+      "image": "https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?w=200&h=300&fit=crop",
+      "author": "Robert Kiyosaki",
+      "pages": 336,
+      "rating": 4.5
+    }
+  ]
+}
